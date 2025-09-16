@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Junnar Life Simulator — Demo Download</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa6bd;--accent:#0b74ff;--glass:rgba(255,255,255,0.04)}
+    html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial; background:linear-gradient(180deg,#071229 0%, #0b1220 100%);color:#e6eef8}
+    .container{max-width:980px;margin:40px auto;padding:28px}
+    header{display:flex;align-items:center;gap:18px}
+    .logo{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#0b74ff,#6bd3ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#04253b;font-size:20px;box-shadow:0 6px 20px rgba(11,116,255,0.18)}
+    h1{font-size:28px;margin:0}
+    p.lead{color:var(--muted);margin-top:8px}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:22px;margin-top:20px;box-shadow:0 6px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+
+    .meta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+    .badge{background:var(--glass);padding:8px 12px;border-radius:999px;font-weight:600;color:#cfe6ff}
+
+    .row{display:grid;grid-template-columns:1fr 360px;gap:22px;margin-top:18px}
+    .description{line-height:1.52;color:#dbeafc}
+    .partners{margin-top:12px}
+    .partners strong{display:block}
+    ul.features{margin:14px 0 0 18px;color:var(--muted)}
+
+    .download-box{background:linear-gradient(90deg, rgba(11,116,255,0.06), rgba(107,211,255,0.02));border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:12px;align-items:stretch}
+
+    .specs{background:rgba(255,255,255,0.02);padding:12px;border-radius:8px;color:#cfe6ff;font-size:14px}
+
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:700;text-decoration:none;border:0;cursor:pointer}
+    .btn.primary{background:var(--accent);color:white;box-shadow:0 10px 30px rgba(11,116,255,0.18)}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#dbeafc}
+
+    .footnote{font-size:13px;color:var(--muted);margin-top:10px}
+
+    footer{margin-top:26px;color:var(--muted);font-size:13px}
+
+    /* Modal */
+    .modal-backdrop{position:fixed;inset:0;background:linear-gradient(180deg, rgba(2,6,23,0.6), rgba(2,6,23,0.85));display:none;align-items:center;justify-content:center;padding:22px}
+    .modal{background:#071125;border-radius:12px;padding:20px;max-width:520px;width:100%;box-shadow:0 20px 50px rgba(2,6,23,0.75);border:1px solid rgba(255,255,255,0.03)}
+    .modal h3{margin:0 0 8px}
+    .modal p{color:var(--muted);margin:0 0 12px}
+    .reqs{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:12px;border-radius:8px;margin-bottom:12px}
+
+    /* Responsive */
+    @media (max-width:880px){.row{grid-template-columns:1fr}.container{padding:18px}.logo{width:60px;height:60px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">JLS</div>
+      <div>
+        <h1>Junnar Life Simulator — Demo Download</h1>
+        <p class="lead">A highly realistic open-world experience modeled on Junnar, Pune — currently in active development.</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <div class="meta">
+        <div class="badge">Game Demo</div>
+        <div class="badge">Early Preview</div>
+        <div style="margin-left:auto;color:var(--muted)">Version: <strong style="color:#dbeafc;margin-left:6px">0.9-demo</strong></div>
+      </div>
+
+      <div class="row">
+        <div>
+          <section class="description">
+            <p><strong>About the project</strong></p>
+
+            <p>"Junnar Life Simulator" is a forthcoming, high-fidelity simulation crafted to bring the streets, landmarks and everyday life of <strong>Junnar, Pune</strong> to virtual life. The current page presents a controlled demo snapshot and a progress summary for interested players and collaborators.</p>
+
+            <div class="partners">
+              <strong>Lead designer:</strong>
+              <div>Sayyed Mohammad Umair Jamadar</div>
+              <strong style="margin-top:10px">Development partners:</strong>
+              <ul>
+                <li>Sayyed Sahil</li>
+                <li>Sayyed Ali Aafaq</li>
+                <li>Sayyed Tasdiq</li>
+              </ul>
+            </div>
+
+            <p style="margin-top:8px;color:var(--muted)">Status: <strong style="color:#ffd27a">Work in progress — design &amp; systems integration phase</strong></p>
+
+            <p style="margin-top:12px">The ambition of the project is to deliver an immersive, realistic simulation featuring:</p>
+            <ul class="features">
+              <li>Accurate map geometry inspired by real-world Junnar, Pune (landmarks and road topology).</li>
+              <li>Authentic Indian vehicles and driving mechanics — two-wheelers such as Splendor and Hero Honda and popular SUVs such as Thar and Fortuner.</li>
+              <li>High-detail environmental assets, local architecture and contextual ambient audio.</li>
+            </ul>
+
+            <p style="margin-top:12px">Please note: this page is a public demo to demonstrate progress and system requirements only. The complete game experience and final content will be distributed when the development milestone is reached.</p>
+
+            <p style="margin-top:12px"><em>Official note:</em> We appreciate the community interest. Our team is focused on realistic physics, faithful representation of local geography, and optimized performance across eligible systems. Your feedback at this stage helps us prioritize features and stability.</p>
+
+          </section>
+        </div>
+
+        <aside>
+          <div class="download-box">
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div>
+                <div style="font-weight:700;font-size:18px">Download Demo</div>
+                <div style="font-size:13px;color:var(--muted)">This is a limited demo package. Full release will follow after completion.</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <div style="font-weight:700">Minimum recommended system (for demo)</div>
+              <div style="margin-top:8px;font-size:14px">RAM: <strong>12 GB</strong><br>Storage available: <strong>256 GB</strong><br>CPU: <strong>Mediatek G-series 3 / Snapdragon 7-series or equivalent</strong></div>
+            </div>
+
+            <div style="display:flex;gap:10px">
+              <button id="downloadBtn" class="btn primary">Download Demo</button>
+              <button id="notifyBtn" class="btn ghost">Notify me</button>
+            </div>
+
+            <div class="footnote">If your device does not meet the recommended configuration the installer will not proceed. We recommend using a modern mid-to-high range device for best experience.</div>
+          </div>
+        </aside>
+      </div>
+
+      <footer>
+        <div><strong>Why Junnar Life Simulator?</strong> Our objective is to set a new benchmark for local-scale realism in mobile and PC simulation. The team emphasizes authenticity — from road networks to commonly used vehicles and urban details — providing players with an experience rooted in the real Junnar community.</div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal / error dialog -->
+  <div id="modalRoot" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal" role="document">
+      <h3 id="modalTitle">Device incompatibility</h3>
+      <p id="modalMsg">Your device is not eligible to install this demo.</p>
+
+      <div class="reqs">
+        <strong>Required (recommended) configuration:</strong>
+        <ul style="margin:8px 0 0 18px;color:var(--muted)">
+          <li>RAM: 12 GB or more</li>
+          <li>Free storage: 256 GB or more</li>
+          <li>CPU: Mediatek G-series (recent) or Snapdragon 7-series / equivalent</li>
+        </ul>
+      </div>
+
+      <p style="margin-bottom:12px;color:var(--muted)">If your device meets these specs but you still see this message, please ensure you are running the latest OS version and have sufficient free storage. If not, please <strong>wait for the full release</strong> or contact the development team for assistance.</p>
+
+      <div style="display:flex;gap:8px;justify-content:flex-end">
+        <button id="closeModal" class="btn ghost">Close</button>
+        <button id="contactBtn" class="btn primary">Contact team</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const downloadBtn = document.getElementById('downloadBtn');
+    const modalRoot = document.getElementById('modalRoot');
+    const closeModal = document.getElementById('closeModal');
+    const contactBtn = document.getElementById('contactBtn');
+    const notifyBtn = document.getElementById('notifyBtn');
+
+    function showModal(message){
+      document.getElementById('modalMsg').textContent = message;
+      modalRoot.style.display = 'flex';
+      modalRoot.setAttribute('aria-hidden','false');
+    }
+
+    function hideModal(){
+      modalRoot.style.display = 'none';
+      modalRoot.setAttribute('aria-hidden','true');
+    }
+
+    // Simulated device check — replace with real check if integrating with native installer
+    function deviceEligible(){
+      // intentionally simple: always returns false in demo
+      return false;
+    }
+
+    downloadBtn.addEventListener('click', ()=>{
+      if(!deviceEligible()){
+        showModal('Your device is not eligible to download this demo.');
+      } else {
+        // Real installer flow would begin here
+        showModal('Starting download...');
+      }
+    });
+
+    notifyBtn.addEventListener('click', ()=>{
+      showModal('Thank you — you will be notified when the next public milestone is available.');
+    });
+
+    closeModal.addEventListener('click', hideModal);
+    contactBtn.addEventListener('click', ()=>{
+      hideModal();
+      window.location.href = 'mailto:team@junnarlifesim.example?subject=Junnar%20Life%20Simulator%20inquiry';
+    });
+
+    // close modal on backdrop click
+    modalRoot.addEventListener('click', (e)=>{ if(e.target === modalRoot) hideModal(); });
+  </script>
+</body>
+</html>
